@@ -1,0 +1,2 @@
+dataset from kaggle can be downloaded from :
+http://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data

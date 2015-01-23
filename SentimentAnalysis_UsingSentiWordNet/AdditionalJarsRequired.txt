@@ -1,0 +1,2 @@
+1.stanford-corenlp-full-2014-06-16
+2.ws4j-1.0.1.jar

@@ -1,0 +1,34 @@
+﻿Readme.txt file for Sentiment Analysis through Bigrams and Trigrams on the Kaggle Dataset
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Java Files are present in the 'JavaFiles' folder.
+
+Kaggle Data was used for training and is located under 'TrainingData' folder.
+
+Test data is located in the 'TestData' folder which contains the kaggle test dataset.
+
+
+Train:
+
+We need to specify the train dataset location to train the model. The output file 'trainData.txt' is obtained from train dataset. 
+This file is then used for getting the review comment type whether 0,1,2,3,4.
+
+(Note: we also get an output -1 which means that we could not classify it.)
+
+
+
+
+Test: 
+
+For running the test data, you need to give the input data which is the kaggle test dataset. The 'trainData.txt' path needs to be provide in the test reducer 'NGramKaggleTestReducer.java' in the string variable trainPath'.
+
+
+
+
+Output:
+
+The output will be in the part file in the format “PhraseId sentimenttype”.
+'TestSubset_output.txt' contains the output obtained which contains labels for the test data.
+
+We could run on the entire dataset due to resource constraints on our personal computers so we ran it on a subset.
+

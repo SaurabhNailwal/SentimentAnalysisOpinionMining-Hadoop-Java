@@ -1,0 +1,20 @@
+﻿Readme.txt file for Sentiment Analysis using Harvard Dictionary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Java Files are present in the 'JavaFiles' folder.
+
+
+The input test files are provided as 'input1.txt' and 'input2.txt'
+
+
+You need to provide the Harvard negative and Harvard positive dictionary file in path 'harvPos' and 'harvNeg' variables in the 'SReducer.java' file.
+
+
+
+
+Output:
+
+The output will be in the part file in the format “comment# –-->>> sentimenttype”.
+

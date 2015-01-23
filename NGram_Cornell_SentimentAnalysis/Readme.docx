@@ -1,0 +1,28 @@
+﻿Readme.txt file for Sentiment Analysis through Bigrams and Trigrams on the Cornell Data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Java Files are present in the 'JavaFiles' folder.
+
+Cornell Data was used for training and is located under 'TrainingData' folder.
+
+Test data is located in the 'TestData' folder which can be used as input.
+
+
+Train:
+
+'NGRAMS' folder contains the output from running the positive and negative datasets of Cornell data. The output file 'negNGram.txt' is obtained from negative dataset and 'posNGram.txt' is obtained from positive dataset.
+These two files are then used for getting the review comment type whether positive or negative.
+
+
+
+Test: 
+
+For running the test data, you need to give the input data, the 'negNGram.txt' and 'posNGram.txt'.
+'negNGram.txt' and 'posNGram.txt' path needs to be provide in the reducer in the string variable 'posPath' and 'nosPath'.
+
+
+
+Output:
+
+The output will be in the part file in the format “comment# –-->>> sentimenttype”.
+

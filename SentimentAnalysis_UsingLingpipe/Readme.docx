@@ -1,0 +1,27 @@
+﻿Readme.txt file for Sentiment Analysis using LingPipe on the Cornell Data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Java Files are present in the 'JavaFiles' folder.
+
+Cornell Data was used for training and is located under 'TrainingData' folder.
+
+
+
+Train:
+
+Give the cornell data path in the variable 'dataPath' for training.
+
+
+
+Test: 
+
+You need to provide input in 'CommentClassifier.txt' in the variable 'comment
+' and run.
+
+
+
+Output:
+
+The output will be in the part file in the format “The comment is –-->>> sentimenttype”.
+
