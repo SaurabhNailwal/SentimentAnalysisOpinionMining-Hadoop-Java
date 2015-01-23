@@ -1,15 +1,11 @@
 ﻿Readme.txt file for Sentiment Analysis using SentiWordnet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-Java Files are present in the 'JavaFiles' folder.
-
-
-The input test files are provided as 'input1.txt' and 'input2.txt'
+The input test files are provided as 'NegativeInput.txt' and 'PositiveInput.txt'
 
 
 You need to provide the path to the 'SentiWordNet.txt' in the variable 'pathToSWN' in the 'SentiReducer.java'.
+(Download the SentiWordNet.txt file)
 
 
 'SentiWordNet.java' is a file which converts the word file dictionary to a dictionary stored in a map collection. 
@@ -18,6 +14,6 @@ You need to provide the path to the 'SentiWordNet.txt' in the variable 'pathToSW
 
 Output:
 
-The output will be in the part file in the format “comment# –-->>> sentimenttype”.
+The output on running 'SentiAnalyzer.java' will be in the part file in the format “comment# –-->>> sentimenttype”.
 
 
