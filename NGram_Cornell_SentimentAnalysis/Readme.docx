@@ -1,12 +1,6 @@
 ﻿Readme.txt file for Sentiment Analysis through Bigrams and Trigrams on the Cornell Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Java Files are present in the 'JavaFiles' folder.
-
-Cornell Data was used for training and is located under 'TrainingData' folder.
-
-Test data is located in the 'TestData' folder which can be used as input.
-
 
 Train:
 
